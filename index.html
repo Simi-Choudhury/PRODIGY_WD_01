@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navigation Bar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" 
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+     crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check">
+      <i class="fa fa-bars" id="btn"></i>
+      <i class="fa fa-times" id="cancel"></i>
+    </label>
+      <div class="logo">
+       <span>T</span>OUR& 
+       <span>T</span>RAVEL
+      </div>
+       <ul>
+        <li><a href="#home">Home</a></li>
+          <li> <a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+              <li><a href="#contact">Contact</a></li>
+                <li><a href="#login">Login</a></li>
+                  </ul> </div>
+                  
+                </nav>
+
+                <section class="homepage">
+                  <div class="content">
+                    <h1>Happiness is Travelling</h1>
+                  <p>
+                    Discover new places with us.
+                  </p></div>
+                </section>
+    </header>
+
+
+
+
+
+   <div class="para"> <p><h3><b>About Our Travel Agency</b></h3><br>
+Welcome to TOUR & TRAVEL agency, your gateway to unforgettable
+ adventures around the world. As a leading travel provider,
+ we specialize in crafting personalized itineraries that cater
+  to every traveler's unique preferences and budgets.<br><br>
+
+ <b><h3>Our Expertise</b></h3><br>
+With over 20 years of industry experience, our team of 
+passionate travel experts has meticulously 
+curated an extensive portfolio of destinations and experiences. 
+Whether you're dreaming of a luxurious beach getaway, or a culturally immersive journey,
+ we have the perfect trip for you.<br><br>
+
+ <b><h3>Booking with Confidence</h3></b><br>
+Booking your travel with us is simple and stress-free. Our user-friendly
+ website allows you to easily search, compare, and select from a wide range of flights, 
+ hotels, cruises, and activities. Once you've found your ideal trip,
+  our secure booking process ensures your reservation is confirmed promptly.<br><br>
+
+  <b><h3>Flexible Policies</h3></b><br>
+We understand that travel plans can sometimes change. That's why we offer flexible
+ cancellation and modification policies to give you peace of mind. Should you need 
+ to make any adjustments to your itinerary, our team will work closely with you to
+  ensure a seamless experience.<br><br>
+
+<b><h3>Exceptional Service</h3></b><br>
+At our TOUR & TRAVEL agency, we pride ourselves on delivering exceptional customer
+ service from start to finish. Our knowledgeable travel consultants are available 
+ 24/7 to assist you with any questions or concerns you may have, ensuring your 
+ journey is nothing short of extraordinary.<br><br>
+
+
+
+
+ </p></div>
+<script>
+  $(window).on('scroll',function()
+  {
+    if($(window).scrollTop())
+    {
+      $('nav').addClass('white');
+    }
+    else{
+      $('nav').removeClass('white');
+    }
+  })
+</script>
+</body>
+</html>                                                                                                                                                          
